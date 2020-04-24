@@ -1,0 +1,38 @@
+{
+  "name": "react-ssr-demo",
+  "version": "1.0.0",
+  "description": "demo application to demonstrate how ssr is working",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "clean": "rimraf dist",
+    "start": "node ./dist/server.bundle.js",
+    "dev": "nodemon ./dist/server.bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajeerkhan/react-ssr-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajeerkhan/react-ssr-demo/issues"
+  },
+  "homepage": "https://github.com/ajeerkhan/react-ssr-demo#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.1.1",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "nodemon": "^2.0.3",
+    "rimraf": "^3.0.2",
+    "source-map-support": "^0.4.14",
+    "webpack": "^3.5.5",
+    "webpack-node-externals": "^1.5.4"
+  }
+}
